@@ -1,0 +1,155 @@
+//=======================================================================
+// How to deal with a version error
+//=======================================================================
+
+  if a versions error occurs:
+	fatal error C1071: unexpected end of file found in comment Error executing cl.exe.
+
+  delete in *.rc
+	#include "verinfo.h"
+	#include "verinfo.ver"
+
+
+  when inserting new BMP make sure the name is formated "ABC"  also
+	make sure the type is Neutral
+
+
+textures
+http://www.texturator.com/categories.htm
+waving flag 
+http://www.geocities.com/foetsch/locking/locking.htm
+//=======================================================================
+~  = tells me it is completed
+~? = think it's fixed
+//=======================================================================
+	
+	DQ009	9/1/03
+	Remove the F1 button from opperation
+	
+	DQ005
+	The Q Bytes StagedConnect window does not go away on windows98
+	
+	DQ003
+    Work on timeing for Performance and GetTime to be the same.
+    
+    DQ
+    Fix hang on lost focus.  This is in the mini map durring lock.
+		currently commented out. May not be able to fix?
+
+	JH
+	Extend Player Class to catch all g_****
+
+	!DQ008	9/1/03  fixed not tested on machine w/o DirectX
+	Test for directX install and give message if not.
+
+	~DAQ did for JH	9/1/03
+	Paddle multi player spilt, top/bottom & left/right
+
+	~DQ007 daq 8/31/03
+	icons for sound, key & mouse-- for activity
+		
+	~DQ006	daq 1/8/02
+	Ball were out of sync.  The Assign ID needed to be trimed down
+	The balls are the only objects that need an ID.
+
+	~DQ006	
+	Game Teaser/Intro
+
+	~DQ002
+	fix problem with class  WallList
+	a global g_wall_list was create for two procedures below I don't control.
+	Need a rtn to hold it (call for set and call for rtn)
+	BallToAllPlayers
+	DisplayPlayerPaddle
+		
+	~DQ001
+	fix problem with class  Player1
+	a global Player2 was created for two procedures below I don't control.
+	Need a rtn to hold it (call for set and call for rtn)
+	HandleSystemMessages
+	WindowProc
+		
+	~JH001
+	Game end, return for start of new game, not exit
+	
+    ~DQ004
+    "SetCooperativeLevel FAILED" This error shows when starting a full screen
+	game twice without an exit of the program.    
+    
+	~ display play move stuff in the window when a player joins the game.
+	  also tell them what color they are and front or back
+
+    ~ Need a place to enter what type of window to use and RES
+    
+	~ Select window/fullscreen
+		(not needed soon, can be part of next game)
+		(helps with debug,  can see source and action)
+
+	~ Extend Key Strokes to other players	
+	
+	~ Fix focus on balls (1-8)
+	
+	~ Cleanup the qdraw.h, reduce waist and consolidate 'h' & 'a' etc... 
+		created a display rtn for char and num includeing '.' & '-'	
+	
+	~?  daq JH
+	Turn the Direction_change procedure into some calls to reduce code space
+		void direction_change(wall_list_element *first_ptr, wall_list_element *cur_element, CPlayer &Player1)
+
+	~? Fix when player 1 leaves the game that it does not force player 5 into Lose condition
+
+	~?Host has final say on ball bounce 
+		(after x loop count, let other players know the correct ball xd, yd)
+		(change the ball x,xd,y,yd only if xd&yd are different)
+
+	~ score from max to 0; at zero you lose.(out of game)
+
+	~ Score not > max score (//DAQ 12/21/02) is fix 8/31/03
+
+	~?Ball hit by my paddle only, passes thru other players due to latency
+		Only I can hit the ball on my paddle (fix Ashleighs scoring)
+
+	~ Back Computers/Player don't get scored on if by themselves
+
+	~ Enumerate Player Type for readability
+
+	~ On I-Quit check score to see if I'm the last Player and winner
+	
+	~ sync the score better (?host only?)(?track last bounce?)
+
+	~ Bounce only to check score
+	
+	~ re-aquire mouse/keyboard after lost focus
+	
+	~ multi balls, track by object ID
+
+    ~ multi ball select on stage screen
+    
+	~ concurrent start of game
+
+	~ adjust time to do 34 moves per second. (removed)
+
+	~ sync ball better.   Let each computer move the ball and the 
+		first one to hit tells the rest.
+
+	~ Single Player launch - JH
+
+	~ AI for paddle - JH
+
+	~ Find players in a game for display in the connection screen. (call back rtn) for - Clayton S
+		note - if searching games and game canceled, the screen will freeze for a short time
+
+	~ Host displays # of players correctly, fix clients to do the same at start of game,
+		s/b and extra call to display players
+
+	~ Make ball and volocity double
+
+	~ add player drop defend wall
+
+	~ after score, move ball in front of paddle
+
+	~ delete paddle if player quits
+
+===========================================
+
+	Reveiw from C++ HELP -> DIRECTSETUP to install with distribusion disk

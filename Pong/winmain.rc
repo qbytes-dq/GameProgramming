@@ -1,0 +1,349 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#define VERSIONNAME               "Q Bytes : StagedConnect.exe\0"
+#define VERSIONDESCRIPTION        "Q Bytes : DirectPlay Application: StagedConnect\0"
+#define VERSIONTYPE               VFT_APP
+#define VERSIONSUBTYPE            VFT2_UNKNOWN
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MUTLIPLAYER_CONNECT DIALOG  0, 0, 204, 154
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
+CAPTION "Q Bytes : Multiplayer Connect"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Player Name:",IDC_STATIC,7,10,43,8,WS_DISABLED
+    EDITTEXT        IDC_PLAYER_NAME_EDIT,7,22,190,14,ES_AUTOHSCROLL
+    LTEXT           "Connection Type:",IDC_STATIC,7,41,57,8,WS_DISABLED
+    LISTBOX         IDC_CONNECTION_LIST,7,53,189,72,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,41,133,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,111,134,50,14
+END
+
+IDD_MULTIPLAYER_CREATE DIALOG  0, 0, 186, 77
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
+CAPTION "Q Bytes : Create Game"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT_SESSION_NAME,7,19,172,14,ES_AUTOHSCROLL
+    CONTROL         "Use DirectPlay Protocol",IDC_CHECK_DPLAY_PROTOCOL,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,49,40,91,10
+    DEFPUSHBUTTON   "OK",IDOK,7,56,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,56,50,14
+    LTEXT           "Game Name:",IDC_STATIC,7,7,42,8,WS_DISABLED
+END
+
+IDD_MULTIPLAYER_STAGE DIALOGEX 0, 0, 349, 185
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
+CAPTION "Q Bytes : Multiplayer Staging Area"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "Players",IDC_STATIC,7,7,95,136,WS_DISABLED
+    EDITTEXT        IDC_CHAT_EDIT,110,123,226,14,ES_WANTRETURN
+    PUSHBUTTON      "Start Game",IDC_START_GAME,227,171,50,14
+    PUSHBUTTON      "Cancel",IDC_BACK,286,171,50,14
+    LTEXT           "Ready?",IDC_STATIC,69,16,26,8,WS_DISABLED
+    CONTROL         "",IDC_READY_P1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,78,
+                    29,9,8
+    CONTROL         "",IDC_READY_P2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,78,
+                    43,9,8
+    CONTROL         "",IDC_READY_P3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,78,
+                    57,9,8
+    CONTROL         "",IDC_READY_P4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,78,
+                    71,9,8
+    CONTROL         "",IDC_READY_P5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,78,
+                    85,9,8
+    PUSHBUTTON      "Open",IDC_SLOT_BTN_P3,12,55,61,12,BS_LEFT
+    PUSHBUTTON      "Open",IDC_SLOT_BTN_P4,12,69,61,12,BS_LEFT
+    PUSHBUTTON      "Open",IDC_SLOT_BTN_P5,12,83,61,12,BS_LEFT
+    PUSHBUTTON      "Open",IDC_SLOT_BTN_P6,12,97,61,12,BS_LEFT
+    PUSHBUTTON      "Open",IDC_SLOT_BTN_P7,12,111,61,12,BS_LEFT
+    GROUPBOX        "Chat",IDC_STATIC,104,7,238,136,WS_DISABLED
+    LISTBOX         IDC_CHAT_LISTBOX,110,17,226,106,WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Open",IDC_SLOT_BTN_P8,12,125,61,12,BS_LEFT
+    CONTROL         "",IDC_READY_P6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,78,
+                    99,9,8
+    CONTROL         "",IDC_READY_P7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,78,
+                    113,9,8
+    CONTROL         "",IDC_READY_P8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,78,
+                    127,9,8
+    PUSHBUTTON      "Open",IDC_SLOT_BTN_P2,12,41,61,12,BS_LEFT
+    CTEXT           "The game status is displayed here.",IDC_STATUS_TEXT,12,
+                    177,150,8,WS_DISABLED
+    LTEXT           "Static",IDC_SLOT_TXT_P1,12,27,61,12,SS_SUNKEN
+    LTEXT           "Static",IDC_SLOT_TXT_P2,12,41,61,12,SS_SUNKEN
+    LTEXT           "Static",IDC_SLOT_TXT_P3,12,55,61,12,SS_SUNKEN
+    LTEXT           "Static",IDC_SLOT_TXT_P4,12,69,61,12,SS_SUNKEN
+    LTEXT           "Static",IDC_SLOT_TXT_P5,12,83,61,12,SS_SUNKEN
+    LTEXT           "Static",IDC_SLOT_TXT_P6,12,97,61,12,SS_SUNKEN
+    LTEXT           "Static",IDC_SLOT_TXT_P7,12,111,61,12,SS_SUNKEN
+    LTEXT           "Static",IDC_SLOT_TXT_P8,12,125,61,12,SS_SUNKEN
+    LTEXT           "Num of Balls",IDC_NUM_BALLS,29,155,41,8,SS_CENTERIMAGE | 
+                    WS_DISABLED
+    CTEXT           "Static",IDC_NUM_BALL_DISPLAY,81,155,12,8,SS_CENTERIMAGE | 
+                    WS_DISABLED
+    LTEXT           "Difficult",IDC_DIFFICULT_CAP,154,154,28,9,
+                    SS_CENTERIMAGE | WS_DISABLED
+    LTEXT           "Static",IDC_DIFFICULT_DISPLAY,184,155,36,8,WS_DISABLED
+    COMBOBOX        IDC_DIFFICULT,182,151,51,86,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Score Out",IDC_SCORE_OUT_CAP,265,154,34,9,WS_DISABLED
+    LTEXT           "ScOut",IDC_SCORE_OUT_DISP,303,154,21,9,WS_DISABLED
+    COMBOBOX        IDC_SCORE_OUT,302,151,34,106,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "RF",IDC_STATIC,87,29,10,10
+    LTEXT           "GF",IDC_STATIC,87,59,10,8
+    LTEXT           "YF",IDC_STATIC,87,45,9,8
+    LTEXT           "BF",IDC_STATIC,87,73,8,8
+    LTEXT           "RR",IDC_STATIC,87,87,10,8
+    LTEXT           "YR",IDC_STATIC,87,101,10,8
+    LTEXT           "BR",IDC_STATIC,87,129,9,8
+    LTEXT           "GR",IDC_STATIC,87,115,10,8
+    GROUPBOX        "Game Play Options",IDC_STATIC,7,143,335,24,WS_DISABLED
+    COMBOBOX        IDC_BALL_COUNT,76,154,34,118,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_LOBBY_WAIT_STATUS DIALOG  120, 110, 162, 52
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION
+CAPTION "Q Bytes : Lobby Connection Status"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Cancel",IDC_LOBBYCONNECTCANCEL,55,31,51,14
+    CTEXT           "Finding Game...",IDC_WAIT_TEXT,7,14,141,8,WS_DISABLED
+END
+
+IDD_MUTLIPLAYER_GAMES DIALOGEX 0, 0, 259, 249
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
+CAPTION "Q Bytes : Multiplayer Games"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Create",IDC_CREATE,126,173,50,14
+    CONTROL         "Start Search",IDC_SEARCH_CHECK,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,193,173,50,14
+    PUSHBUTTON      "Join",IDC_JOIN,193,192,50,14
+    PUSHBUTTON      "Cancel",IDC_BACK,193,212,50,14
+    CONTROL         "Full Screen",IDC_FULL_SCREEN,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,15,167,55,9
+    CONTROL         "Window",IDC_WINDOW,"Button",BS_AUTORADIOBUTTON,15,177,
+                    73,10
+    CONTROL         "800x600",IDC_800,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    22,198,63,9
+    CONTROL         "1024x768",IDC_1024,"Button",BS_AUTORADIOBUTTON,22,207,
+                    66,9
+    CONTROL         "1280x960",IDC_1280,"Button",BS_AUTORADIOBUTTON,22,216,
+                    72,9
+    LTEXT           "Select Game To Join:",IDC_STATIC,7,6,69,8,WS_DISABLED
+    LISTBOX         IDC_GAMES_LIST,7,15,245,48,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_PLAYERS,7,78,246,77,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Players Staged In Game:",IDC_STATIC,7,68,79,8,
+                    WS_DISABLED
+    CTEXT           "This screen will freeze if Host is lost,  it will rezoom shortly after.",
+                    IDC_STATIC,7,233,250,9,SS_CENTERIMAGE | WS_DISABLED
+    GROUPBOX        "Resolution",IDC_RESOLUTION,15,188,89,38
+    GROUPBOX        "Screen View",IDC_STATIC,7,156,105,74
+    GROUPBOX        "Host Player",IDC_STATIC,120,156,65,74
+    GROUPBOX        "Players Join",IDC_STATIC,188,156,64,74
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_MUTLIPLAYER_CONNECT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 197
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_MULTIPLAYER_CREATE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        VERTGUIDE, 94
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 70
+    END
+
+    IDD_MULTIPLAYER_STAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 342
+        VERTGUIDE, 12
+        VERTGUIDE, 87
+        VERTGUIDE, 104
+        VERTGUIDE, 110
+        VERTGUIDE, 336
+        TOPMARGIN, 7
+        HORZGUIDE, 39
+        HORZGUIDE, 53
+        HORZGUIDE, 67
+        HORZGUIDE, 81
+        HORZGUIDE, 95
+        HORZGUIDE, 109
+        HORZGUIDE, 123
+        HORZGUIDE, 137
+        HORZGUIDE, 150
+        HORZGUIDE, 163
+        HORZGUIDE, 167
+    END
+
+    IDD_LOBBY_WAIT_STATUS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 148
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 45
+    END
+
+    IDD_MUTLIPLAYER_GAMES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 252
+        VERTGUIDE, 15
+        VERTGUIDE, 112
+        VERTGUIDE, 141
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 242
+        HORZGUIDE, 72
+        HORZGUIDE, 142
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#define VERSIONNAME               ""Q Bytes : StagedConnect.exe\\0""\r\n"
+    "#define VERSIONDESCRIPTION        ""Q Bytes : DirectPlay Application: StagedConnect\\0""\r\n"
+    "#define VERSIONTYPE               VFT_APP\r\n"
+    "#define VERSIONSUBTYPE            VFT2_UNKNOWN\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MAIN                ICON                    "Pong.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+WALL                    BITMAP                  "wall.bmp"
+CELL1                   BITMAP                  "Cell1.bmp"
+PADDLE_V                BITMAP                  "paddle_vert.bmp"
+ABC                     BITMAP                  "ABC.bmp"
+PADDLE_H                BITMAP                  "paddle_Horz.bmp"
+MINIMAP                 BITMAP                  "MiniMap.bmp"
+EXE_LINE                BITMAP                  "exe_line.bmp"
+INTERFACE               BITMAP                  "interfaces.bmp"
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+JUMP                    WAVE                    "JUMP.WAV"
+MISS01                  WAVE                    "MISS01.WAV"
+MISS02                  WAVE                    "MISS02.WAV"
+STOP                    WAVE                    "STOP.WAV"
+STRIKE01                WAVE                    "STRIKE01.WAV"
+STRIKE02                WAVE                    "STRIKE02.WAV"
+STUNNED                 WAVE                    "STUNNED.WAV"
+THROW                   WAVE                    "THROW.WAV"
+ENERGIZE                WAVE                    "energize.wav"
+XPLOSION                WAVE                    "XPLOSION.WAV"
+LOSE                    WAVE                    "lose.wav"
+MENCHEER_WIN            WAVE                    "MENCHEER.WAV"
+PAUSE                   WAVE                    "Pause.wav"
+PLAYERDIES              WAVE                    "playerdies.wav"
+VICTORY                 WAVE                    "VICTORY.WAV"
+QBYTESPONG              WAVE                    "qbytespong.wav"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

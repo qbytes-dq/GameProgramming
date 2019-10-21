@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "waveInFFT", "waveInFFT.vcproj", "{D5142758-84C8-44BB-85C6-1496FFDCC886}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {2CC8DE9B-9BDC-415B-84EE-FD087219685D}
+		SccProjectUniqueName1 = waveInFFT.vcproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{D5142758-84C8-44BB-85C6-1496FFDCC886}.Debug.ActiveCfg = Debug|Win32
+		{D5142758-84C8-44BB-85C6-1496FFDCC886}.Debug.Build.0 = Debug|Win32
+		{D5142758-84C8-44BB-85C6-1496FFDCC886}.Release.ActiveCfg = Release|Win32
+		{D5142758-84C8-44BB-85C6-1496FFDCC886}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

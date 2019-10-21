@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe", "TicTacToe\TicTacToe.csproj", "{62F8F7FD-0F87-4149-BD39-4B7EE911B6C2}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://qbw-tfs:8080/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = TicTacToe\\TicTacToe.csproj
+		SccProjectName1 = TicTacToe
+		SccLocalPath1 = TicTacToe
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62F8F7FD-0F87-4149-BD39-4B7EE911B6C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62F8F7FD-0F87-4149-BD39-4B7EE911B6C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62F8F7FD-0F87-4149-BD39-4B7EE911B6C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62F8F7FD-0F87-4149-BD39-4B7EE911B6C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

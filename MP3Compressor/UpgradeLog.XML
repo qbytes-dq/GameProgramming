@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="MP3Compressor">
+</Property><Property Name="Solution File" Value="E:\CheckOutGaming\MP3Compressor\MP3Compressor.sln">
+</Property><Property Name="Date" Value="Friday, November 21, 2008">
+</Property><Property Name="Time" Value="12:29 PM">
+</Property></Properties><Event ErrorLevel="0" Project="yeti.mmedia" Source="yeti.mmedia\yeti.mmedia.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="yeti.mmedia" Source="yeti.mmedia\yeti.mmedia.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="yeti.mp3" Source="yeti.mp3\yeti.mp3.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="yeti.mp3" Source="yeti.mp3\yeti.mp3.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="AudioCompress" Source="AudioCompress\AudioCompress.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="AudioCompress" Source="AudioCompress\AudioCompress.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="MP3Compressor.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="MP3Compressor.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="yeti.mmedia" Source="yeti.mmedia\yeti.mmedia.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="yeti.mp3" Source="yeti.mp3\yeti.mp3.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="AudioCompress" Source="AudioCompress\AudioCompress.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

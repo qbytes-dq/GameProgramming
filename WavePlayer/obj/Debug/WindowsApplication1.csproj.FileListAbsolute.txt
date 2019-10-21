@@ -1,0 +1,7 @@
+E:\CheckOutGaming\WavePlayer\obj\Debug\ResolveAssemblyReference.cache
+E:\CheckOutGaming\WavePlayer\obj\Debug\WindowsApplication1.Form1.resources
+E:\CheckOutGaming\WavePlayer\obj\Debug\WindowsApplication1.csproj.GenerateResource.Cache
+E:\CheckOutGaming\WavePlayer\bin\Debug\WindowsApplication1.exe
+E:\CheckOutGaming\WavePlayer\bin\Debug\WindowsApplication1.pdb
+E:\CheckOutGaming\WavePlayer\obj\Debug\WindowsApplication1.exe
+E:\CheckOutGaming\WavePlayer\obj\Debug\WindowsApplication1.pdb

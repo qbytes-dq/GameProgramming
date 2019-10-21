@@ -1,0 +1,9 @@
+E:\CheckOutGaming\MP3Compressor\yeti.mmedia\bin\Debug\yeti.mmedia.dll
+E:\CheckOutGaming\MP3Compressor\yeti.mmedia\bin\Debug\yeti.mmedia.pdb
+E:\CheckOutGaming\MP3Compressor\yeti.mmedia\obj\Debug\ResolveAssemblyReference.cache
+E:\CheckOutGaming\MP3Compressor\yeti.mmedia\obj\Debug\Yeti.MMedia.EditWaveWriter.resources
+E:\CheckOutGaming\MP3Compressor\yeti.mmedia\obj\Debug\Yeti.MMedia.EditFormat.resources
+E:\CheckOutGaming\MP3Compressor\yeti.mmedia\obj\Debug\Yeti.Controls.NumericTextBox.resources
+E:\CheckOutGaming\MP3Compressor\yeti.mmedia\obj\Debug\yeti.mmedia.csproj.GenerateResource.Cache
+E:\CheckOutGaming\MP3Compressor\yeti.mmedia\obj\Debug\yeti.mmedia.dll
+E:\CheckOutGaming\MP3Compressor\yeti.mmedia\obj\Debug\yeti.mmedia.pdb
